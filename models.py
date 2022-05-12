@@ -4,7 +4,7 @@ mydb=mysql.connector.connect(
     user="root",
     password="",
     database="Tkinterdb",
-    port=4306
+    port=3306
 )
 mycursor=mydb.cursor()
 # mycursor.execute("""
@@ -23,11 +23,8 @@ mycursor=mydb.cursor()
 #                       website varchar(200),
 #                       financial_year DATE,
 #                       year_begin DATE,
+#                       currencysign varchar(100),
 #                       currency varchar(200),
-#                      currencysign int,
-# 		             currsignplace varchar(255),
-#                      decimalseperator varchar(155),
-#                      excurrency varchar(255),
-#                      PRIMARY KEY(companyid))
+#                       PRIMARY KEY(companyid))
 #                 """)
 
